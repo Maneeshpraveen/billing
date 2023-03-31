@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+      <html lang="en">
+        <head>
+    <title>SHOP</title>
+    <link rel="stylesheet" href="/main.css">
+  
+    </head>
+    <script src="/bill.js"></script>
+  
+      <body>
+  
+      <h2>MY SHOP</h2>
+      <div class="out" align="center">
+<form action="success.html" >
+  <label> ID :</label>
+      <input type="number" placeholder="ID" id="t4" class="tb" required><br><br>
+            <label> Name :</label>
+            <input type="text" placeholder="Name" id="t0" class="tb"  oninput="checkName(this)" required><br> <br>
+            
+      <label> Mobile Number :</label>
+      <input type="tel" id="t1" class="tb"  placeholder="Mobile_no" pattern="\d{10}" oninvalid="showError(this)" required><br><br>
+      
+      <label> Address :</label>
+      <input type="Address" placeholder="Address" id="t2" class="tb" required><br><br>
+
+      <label>Product Name :</label>
+      <select id="product-name" name="product-name" placeholder="Product Name" class="tb" onchange="updateBrandOptions()"required>
+        <option value="category1">Select a category</option>
+        <option value="Rice">Rice</option>
+        <option value="Cement">Cement </option>
+    </select><br><br>
+       
+            <label> Quantity :</label>
+            <input type="number" placeholder="Quantity" id="quantity-field" class="tb" onchange="updateCostField()" required><br><br>
+
+            <label for="brand-field">Brand:</label>
+            <select id="brand-field" name="brand-field" placeholder="Select brand" onchange="updateCostField()" disabled>
+              <option value="">Select a brand</option>
+              <option value="" data-product="Rice">Basmathi</option>
+              <option value="Ponni" data-product="Rice">Ponni</option>
+              <option value="Ramco" data-product="Cement">Ramco</option>
+              <option value="Bharathi" data-product="Cement">Bharathi</option>
+           </select>
+          
+        <br><br>
+        <label> Cost :</label>
+        <input type="number" placeholder="Cost" id="cost-field" class="tb" required disabled><br><br>
+                <div class="output">
+      <input type="submit" value="Submit" class="btn" onclick="registration()">
+    
+    </form>
+  </div>
+
+      </body>
+      </html>
+

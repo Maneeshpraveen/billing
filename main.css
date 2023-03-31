@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/OIP.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: white; 
+    font-size: 30px;
+
+}
+h2{
+    margin-left: 750px;
+    color:white;
+}
+
+.out{
+    color: white;
+}
+      
+label {
+    width: 250px;
+    display: inline-block;
+    text-align: right;
+  }
+
+input {
+    display: inline-block;
+    margin-left:10px;
+  } 
+
+.output .btn{
+    margin-left: 250px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+}
+.output .btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+
+}
+select {
+    display: inline-block;
+    margin-left: 10px;
+    width: 170px;
+    height: 22px;
+}
+
+
+
+
+   /*<datalist id="categories">
+        <option value="Basmathi">
+        <option value="Ponni">
+        <option value="Karanadag">
+        <option value="Seeraga Sambha"></option>
+    </datalist>*/

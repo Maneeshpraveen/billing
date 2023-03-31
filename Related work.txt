@@ -1,0 +1,35 @@
+"Dual Style Transfer for High-Resolution Images" by Y. Chen, et al., IEEE Transactions on Image Processing, 2021. DOI: 10.1109/TIP.2021.3096074. This paper presents a dual style transfer framework that can transfer the style of two different reference images to a high-resolution image.  But i need more decription for what are done in this paper
+
+
+"Neural Style Transfer via Meta-Learning" by Y. Guo, et al., IEEE Conference on Computer Vision and Pattern Recognition, 2021. DOI: 10.1109/CVPR.2021.01147. This paper proposes a meta-learning based approach for neural style transfer, which can generate high-quality stylized images with fewer iterations 
+
+
+
+"StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN" by T. Karras, et al., IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020. DOI: 10.1109/CVPR42600.2020.01039. This paper proposes StyleGAN2, a state-of-the-art generative model that can synthesize high-quality images with diverse styles.
+
+
+"Coherent Online Video Style Transfer" by Y. Li, et al., IEEE Transactions on Image Processing, 2020. DOI: 10.1109/TIP.2020.3012723. This paper presents an online video style transfer method that can generate coherent stylized videos in real-time.
+
+
+"Improved Texture Networks: Maximizing Quality and Diversity in Feed-forward Stylization and Texture Synthesis" by D. Ulyanov, et al., IEEE Transactions on Visualization and Computer Graphics, 2019. DOI: 10.1109/TVCG.2018.2880495. This paper proposes an improved texture network for feed-forward style transfer, which can generate high-quality and diverse stylized images
+
+
+"Image Style Transfer Using Convolutional Neural Networks" by L. Gatys, et al., IEEE Conference on Computer Vision and Pattern Recognition, 2016. DOI: 10.1109/CVPR.2016.265. This paper introduces a neural style transfer method that can generate artistic images by separating and recombining the content and style of two different images.
+
+
+
+"Fast Patch-based Style Transfer of Arbitrary Style" by X. Huang, et al., IEEE Conference on Computer Vision and Pattern Recognition, 2017. DOI: 10.1109/CVPR.2017.415. This paper proposes a fast patch-based style transfer method that can transfer the style of an arbitrary reference image to a target image with high quality and efficiency.
+
+
+
+"Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization" by X. Huang, et al., IEEE International Conference on Computer Vision, 2017. DOI: 10.1109/ICCV.2017.634. This paper presents a real-time arbitrary style transfer method that can adjust the style parameters of the reference image to fit the target image using adaptive instance normalization
+
+
+
+"Multi-Content GAN for Few-Shot Font Style Transfer" by X. Wang, et al., IEEE Conference on Computer Vision and Pattern Recognition, 2019. DOI: 10.1109/CVPR.2019.00771.
+
+
+Virtusio, J. J., Ople, J. J. M., Tan, D. S., Tanveer, M., Kumar, N., & Hua, K. -. (2021). Neural style palette: A multimodal and interactive style transfer from a single style image. IEEE Transactions on Multimedia, 23,2245-2258. doi:10.1109/TMM.2021.3087026.
+
+
+
